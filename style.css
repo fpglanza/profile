@@ -1,0 +1,105 @@
+
+/* Colors and fonts */
+body {
+    background-color: #FBEDDA;
+    color: #282828;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #871E1C
+}
+
+h2 {
+    color: #D53734;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #F7DCB6;
+    font-weight: 300;
+    font-size: 16px;
+}
+a:hover {
+    background-color: #F7DCB6;
+    color: #871E1C;
+    transition: ease-in-out 300ms;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    color: #28112B;
+    font-size: 16px;
+    text-justify: center;
+}
+
+/* Custom design with class */
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+.card-white {
+    background-color: whitesmoke;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 20px 0;
+    text-align: center;
+}
+.butt {
+    padding: 10 20;
+    border-radius: 5px;
+    background-color: #871E1C;
+    color: # 
+}
+img {
+    height: 200;
+    width: 200;
+    border-radius: 50%;
+}
+ul{
+    padding-left: 0px; 
+}
+.list-inline li {
+    display: inline;
+    margin: 0 auto;
+    padding: 5px
+}
+.list-inline i {
+    font-size: 30px;
+    color: #871E1C;
+}
+
+.list-inline i:hover {
+    color: #EA9B99;
+    background-color: whitesmoke;
+}
+/*Design adjustments id */
+#introduction p {
+    margin-bottom: 40px;
+  }
